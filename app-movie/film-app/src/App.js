@@ -35,7 +35,7 @@ function App() {
 }];
    const [filterByName , setNomFilm]=useState("");
    const filterMovie = ()=> {
-    list.filter((movie)=> movie.title.includes(filterByName))
+     return  list.filter((movie)=> movie.title.toLowerCase().includes(filterByName.toLowerCase()))
    }
   return (
     <div className="App">

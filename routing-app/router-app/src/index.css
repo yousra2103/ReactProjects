@@ -1,0 +1,49 @@
+
+
+
+
+.image{
+  width: 300px;
+  height: 200px;
+  /* position: relative; */
+  left: 550px;
+  top: 150px;
+}
+h1{
+  text-align: center;
+
+}
+
+
+li{
+display: inline-block;
+margin: 5px;
+}
+a{
+  color: white;
+  border: solid 2px white;
+  padding: 5px;
+  margin: 10px;
+}
+ul{
+  margin-top: 20px;
+}
+header{
+  background-color: black;
+  height: 60px;
+  color: white;
+  position: relative;
+  margin-top: 10px;
+}
+footer{
+  background-color: black;
+  position: relative;
+  margin-bottom: 0px;
+  height: 60px;
+}
+p{
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+
